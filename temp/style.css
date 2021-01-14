@@ -1,0 +1,224 @@
+.panel.align-top {
+  align-items: flex-start;
+}
+.panel h1 {
+  font-size: 1.8em;
+  color: black;
+  font-weight: 300;
+  margin: 0 auto;
+}
+.panel.description {
+	width: 100%;
+
+}
+.panel p, .panel li {
+  color: black;
+  font-weight: 400;
+  text-align: left;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  display: flex;
+  width: 100%;
+}
+
+.panel p strong, .panel li strong {
+  color: black;
+  font-weight: 400;
+}
+.panel p code, .panel li code {
+  background-color: rgba(255,255,255,0.15);
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+.panel li {
+  margin: 0;
+}
+.gray {
+  background-color: #777;
+}
+.main {
+  background-color: #121822;
+}
+.orange {
+  background-color: #e77614;
+}
+
+.red {
+  background-color: #c82736;
+}
+
+.purple {
+  background-color: #8d3dae;
+}
+.green {
+  background-color: #28a92b;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  font-family: "Signika Negative", sans-serif, Arial;
+}
+
+.panel {
+	width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+h1, h2, p, li {
+  max-width: 800px;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 40px;
+  right: 20px;
+  padding: 20px 20px 0px 20px;
+  z-index: 100;
+  font-size : 3vw;
+  font-weight : lighter;
+  color: #000000;
+}
+logo{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  padding: 20px 20px 20px 20px;
+  z-index: 100;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 86.9%;
+}
+
+header a{
+	text-decoration: none;
+	font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 41px;
+color: #000000;
+padding: 0px 30px 0px 0px;
+position: relative;
+}
+
+/* HEADINGS */
+.header-section {
+  padding: 0 15px;
+  text-align: center;
+  margin: 40vh auto 50vh;
+}
+
+/* SCROLL DON */ 
+.scroll-down {
+  position: absolute; 
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+ font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+line-height: 18px;
+text-align: center;
+color: #121822;
+padding-bottom: 10px;
+  overflow: visible;
+}
+.scroll-down .arrow {
+  position: relative;
+  top: 10px;
+  margin: 6px auto;
+  width: 20px;
+  height: 20px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHBhdGggZmlsbD0iYmxhY2siIGQ9Ik00ODMuMiwxOTIuMmMtMjAuNS0yMC41LTUzLjUtMjAuOC03My43LTAuNkwyNTcsMzQ0LjFMMTA0LjUsMTkxLjZjLTIwLjItMjAuMi01My4yLTE5LjktNzMuNywwLjYKCWMtMjAuNSwyMC41LTIwLjgsNTMuNS0wLjYsNzMuN2wxOTAsMTkwYzEwLjEsMTAuMSwyMy40LDE1LjEsMzYuOCwxNWMxMy4zLDAuMSwyNi43LTQuOSwzNi44LTE1bDE5MC0xOTAKCUM1MDMuOSwyNDUuNyw1MDMuNywyMTIuNyw0ODMuMiwxOTIuMnoiLz4KPC9zdmc+);
+  background-size: contain;
+}
+menu{
+	position: absolute;
+  top: 40px;
+  right: 50px;
+  padding: 0px 40px 20px;
+  z-index: 100;
+  font-size : 30px;
+  font-weight : lighter;
+	
+}
+menu a{
+	text-decoration: none;
+	color : black;
+	padding-right: 4vw;
+	font-size: 2.5vw;
+	
+}
+logo img{
+	max-height: 50px;
+	width : 80px;
+}
+
+mainimg img{
+	position : absolute;
+	max-width: 33%;
+	top: 25%;
+	right: 40px;
+	filter: brightness(80%);
+}
+desc{
+	position : absolute;
+	left: 20px;
+	top : 30%;
+	padding-left: 20px;
+	max-width: 50%;
+	text-align: left;
+	font-family: Abhaya Libre ExtraBold;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 4.5vw;
+	line-height: 103.5%;
+	color: #121822;
+}
+desc2{
+	position : absolute;
+	left: 20px;
+	top : 60%;
+	padding-left: 20px;
+	max-width: 50%;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5vw;
+	line-height: 5px;
+	color: #121822;
+}
+desc2 h3{
+	font-size: 2vw;
+	color: red;
+	text-decoration: underline;
+	line-height: 20px;
+}
+@media only screen and (max-width: 650px) {
+	menu a{
+		display : none;
+	}
+}
